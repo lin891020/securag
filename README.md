@@ -1,6 +1,8 @@
 # SecuRAG
 
 > **Enterprise Security Knowledge Base Chatbot** — Ask questions about your internal security policies, compliance guides, and SOPs through a conversational AI interface. All processing runs on your own infrastructure; no data leaves your network.
+>
+> **Status:** complete and archived (2026-11-07). Portfolio project; no further features planned. CI stays green; see `HANDOFF.md` to resume.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)
 ![Vue](https://img.shields.io/badge/Vue-3-42b883?style=flat-square)
