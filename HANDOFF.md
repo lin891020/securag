@@ -4,7 +4,7 @@
 
 ## 現在在哪一步
 
-**封存 2026-11-07**：停在「專案已完成，維護模式」（2026-09-20，CI 綠、backend 132 passed、frontend 6 passed）。為什麼停：作品集已成形，兩個月沒動、沒在跑；Mike 2026-11-07 盤點時決定封裝。重啟先做：`docker compose up` 後跑一次測試確認還綠（image 10.7 GB 與 3 個 volume 還在本機）。dev.test 的啟動按鈕與 PORTS.md 的 8310–8313、15432 保留。以下是封存前的狀態。
+**封存 2026-11-07**：停在「專案已完成，維護模式」（2026-09-20，CI 綠、backend 132 passed、frontend 6 passed）。為什麼停：作品集已成形，兩個月沒動、沒在跑；Mike 2026-11-07 盤點時決定封裝。重啟先做：`docker compose up` 後跑一次測試確認還綠（image 2026-11-08 刪了，要重新 build；pg、chroma、upload 三個 volume 還在，共約 72 MB）。dev.test 的啟動按鈕與 PORTS.md 的 8310–8313、15432 保留。以下是封存前的狀態。
 
 專案已完成，維護模式。2026-09-20 補了 CI（`.github/workflows/tests.yml`）：backend 測試不用 docker 也能跑，frontend 的 vitest 也跑。
 
